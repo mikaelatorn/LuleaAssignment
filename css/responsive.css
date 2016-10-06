@@ -3,33 +3,36 @@
 		text-align: center;
 	}
 
-	.logo { width: 7.1em; ; margin-right: -10em;  }
-	.logo img { max-width: 7.2em;border: 1px solid #000; }
+	.logo { width: 10.1em; ; margin-right: -10em;  }
 
-	h1 { 
-		text-align: left; 
+	.logo img { max-width: 10.1em;}
 
-	}
-	.title { margin-left: 10em; }
-}
+	h1 {
+		text-align: left;}
+
+
 
 @media screen and (min-width: 780px) {
 
 .navbar p { text-align: left; }
 
-.menu li { 
+.menu li {
 	padding-right: 7em;
 }
 
-.images { 
-	width: 90%; 
+.images {
+	width: 90%;
 	margin: 0 auto;
 }
-.images li { 
+.images li {
 	width: 30.71%;
 	margin: 0.5em;
 }
 
 .content-header { padding: 3em; }
-
 }
+
+.logo img { max-width: 10.1em;}
+
+
+.title { margin-left: 12em; }
