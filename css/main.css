@@ -22,11 +22,28 @@ a{
 	text-decoration: none;
 	font-weight: bold;
 	color: black;
-}
-a:hover{
-	border-bottom: 2px solid #D8D8D8;
-    padding-bottom: 2px;
+		display: inline-block;
+			position: relative;
+			padding-bottom: 2px;
+
 	}
+	a:after{
+		content: '';
+		display: block;
+		margin: auto;
+		height: 0.5px;
+		width: 0px;
+		padding-bottom: 2px;
+		background: transparent;
+		transition: width .5s ease, background-color .5s ease;
+
+	}
+	a:hover:after{
+		width: 100%;
+		background: black;
+		padding-bottom: 2px;
+		}
+
 
 .navbar p {
 	margin-top: 0;
