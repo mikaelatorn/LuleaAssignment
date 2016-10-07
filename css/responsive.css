@@ -3,36 +3,39 @@
 		text-align: center;
 	}
 
-	.logo { width: 10.1em; ; margin-right: -10em;  }
-
-	.logo img { max-width: 10.1em;}
+	.logo { width: 7.1em; ; margin-right: -10em;  }
+	.logo img { max-width: 7.2em; }
 
 	h1 {
-		text-align: left;}
+		text-align: left;
+	}
 
-
+	.title { margin-left: 10em; }
+	.images { width: 50%; }
+	.content-text p { margin: 1em 5em 1em 5em; }
+}
 
 @media screen and (min-width: 780px) {
+	.navbar p { text-align: left; }
 
-.navbar p { text-align: left; }
+	.menu li {
+		padding-right: 7em;
+	}
 
-.menu li {
-	padding-right: 7em;
+	.images {
+		width: 30%;
+		margin: 0.5em;
+		float: none;
+		display: inline-block;
+	}
+
+	.image-list {
+		text-align: center;
+	}
+
+	.images h3 { width: 30%; }
+
+	.content-header { padding: 3em; }
+
+	.images:hover p { width: 30%; }
 }
-
-.images {
-	width: 90%;
-	margin: 0 auto;
-}
-.images li {
-	width: 30.71%;
-	margin: 0.5em;
-}
-
-.content-header { padding: 3em; }
-}
-
-.logo img { max-width: 10.1em;}
-
-
-.title { margin-left: 12em; }
