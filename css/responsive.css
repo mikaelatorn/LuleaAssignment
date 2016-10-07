@@ -1,9 +1,12 @@
 @media screen and (min-width: 480px) {
 	.menu ul {
 		text-align: center;
+		padding: 0;
 	}
 
-	.logo { width: 6.5em; ; margin-right: -10em;  }
+
+
+	.logo { width: 7.1em; ; margin-right: -10em;  }
 
 	.logo img { max-width: 7.2em; }
 
@@ -19,9 +22,7 @@
 @media screen and (min-width: 780px) {
 	.navbar p { text-align: left; }
 
-	.menu li { 
-		padding-right: 7em;
-	}
+
 
 	.images {
 		width: 30%;
@@ -40,4 +41,3 @@
 
 	.images:hover p { width: 30%; }
 }
-
