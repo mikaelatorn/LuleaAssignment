@@ -4,17 +4,11 @@
 	}
 
 	.logo { width: 7.1em; ; margin-right: -10em;  }
-<<<<<<< HEAD
-	.logo img { max-width: 7.2em;border: 1px solid #000; }
 
-	h1 { 
-		text-align: left; 
-=======
 	.logo img { max-width: 7.2em; }
 
 	h1 {
 		text-align: left;
->>>>>>> nav
 	}
 
 	.title { margin-left: 10em; }
@@ -25,38 +19,17 @@
 @media screen and (min-width: 780px) {
 	.navbar p { text-align: left; }
 
-<<<<<<< HEAD
 	.menu li { 
-		padding-right: 7em;
-	}
-
-	.images { 
-		width: 30%; 
-=======
-	.menu li {
 		padding-right: 7em;
 	}
 
 	.images {
 		width: 30%;
->>>>>>> nav
 		margin: 0.5em;
 		float: none;
 		display: inline-block;
 	}
 
-<<<<<<< HEAD
-	.image-list { 
-		text-align: center;
-	}
-
-	.images h3 { width: 30%; }
-
-	.content-header { padding: 3em; }
-
-	.images:hover p { width: 30%; }
-}
-=======
 	.image-list {
 		text-align: center;
 	}
@@ -67,4 +40,4 @@
 
 	.images:hover p { width: 30%; }
 }
->>>>>>> nav
+
