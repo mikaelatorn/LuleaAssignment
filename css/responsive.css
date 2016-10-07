@@ -39,5 +39,7 @@
 
 	.content-header { padding: 3em; }
 
-	.images:hover p { width: 30%; }
+	.images:hover p { width: 28.5%; text-align: center; }
+
+	.videoPlay { width: 80%; }
 }

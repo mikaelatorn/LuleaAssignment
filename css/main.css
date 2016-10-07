@@ -4,8 +4,8 @@
 	width: 100%;
 	height: 9.5em;
 	top: 0;
-
 }
+
 .navbar p {
 	margin-top: 0;
 	text-align: center;
@@ -18,6 +18,7 @@ a{
 	display: inline-block;
 	position: relative;
 	padding-bottom: 2px;
+<<<<<<< HEAD
 	}
 
 	a:after{
@@ -30,12 +31,30 @@ a{
 		background: transparent;
 		transition: width .3s ease, background-color .3s ease;
 	}
+=======
+}
+
+a:after{
+	content: '';
+	display: block;
+	margin: auto;
+	height: 0.5px;
+	width: 0px;
+	padding-bottom: 2px;
+	background: transparent;
+	transition: width .3s ease, background-color .3s ease;
+}
+>>>>>>> 150c51dc9a8176a1f3c63b20c72ecd73a52a4fc3
 
 a:hover:after{
 	width: 100%;
 	background: black;
 	padding-bottom: 2px;
+<<<<<<< HEAD
 	}
+=======
+}
+>>>>>>> 150c51dc9a8176a1f3c63b20c72ecd73a52a4fc3
 
 .logo { width: 0; height:0; }
 .logo img {
@@ -46,6 +65,7 @@ a:hover:after{
 	height: 7em;
 }
 
+<<<<<<< HEAD
 .navbar p {
 	margin-top: 0;
 	text-align: center;
@@ -91,6 +111,23 @@ p { text-align: center; }
 	margin-bottom: 0.6em;
 
  }
+=======
+h1 { text-align: center;}
+
+.logo { width: 0; height:0; }
+.logo img { max-width: 0; }
+
+
+p { text-align: center; }
+
+.menu { width: 100%; }
+
+.menu ul {
+	list-style-type: none;
+	margin:0.5em;
+	padding: 2;
+}
+>>>>>>> 150c51dc9a8176a1f3c63b20c72ecd73a52a4fc3
 
 .menu li {
 	display: inline-block;
@@ -120,12 +157,12 @@ p { text-align: center; }
 	color: #FFF;
 }
 
-
 .video-content {
 	width: 100%;
-	height: 20em;
-	border: 1px solid #000;
+	text-align: center;
 }
+
+.videoPlay { width: 100%;  }
 
 h2 { text-align: center; }
 
@@ -162,7 +199,6 @@ margin-bottom: 0;
 	margin-top: 2em;
 }
 
-
 .images p { display: none; }
 .images:hover p {
 	display: block;
@@ -171,7 +207,7 @@ margin-bottom: 0;
 	width: 45%;
 	margin-top: 4em;
 	text-align: left;
-	padding: 0.5em;
+	padding: 0.6em;
 	font-size: 0.9em;
 	-webkit-animation: fadein 1s;
 }
@@ -191,19 +227,6 @@ margin-bottom: 0;
     -webkit-transition: all .4s linear;
     transition: all .4s linear;
 }
-
-.overlay { height: 100%; width: 100%;  }
-
-#img1 { background-image:url('../images/isbanan.png') }
-#img2 { background-image:url('../images/luleaStad.png') }
-#img3 { background-image:url('../images/ormberget.png') }
-#img4 { background-image:url( '../images/nederluleaKyrka.png') }
-#img5 { background-image:url('../images/naturRes.png') }
-#img6 { background-image:url('../images/skargard.png') }
-
-.images img { max-width: 100%; max-height: 100%;}
-
-/* FOOTER */
 
 .overlay { height: 100%; width: 100%;  }
 
