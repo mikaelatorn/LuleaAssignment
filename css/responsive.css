@@ -4,7 +4,12 @@
 		padding: 0;
 	}
 
-
+	.menu li {
+		display: inline-block;
+		text-align: center;
+		margin-right: 2em;
+		margin-left: 2em;
+	}
 
 	.logo { width: 7.1em; ; margin-right: -10em;  }
 
@@ -22,7 +27,12 @@
 @media screen and (min-width: 780px) {
 	.navbar p { text-align: left; }
 
-
+	.menu li {
+		display: inline-block;
+		text-align: center;
+		margin-right: 3em;
+		margin-left: 3em;
+	}
 
 	.images {
 		width: 30%;

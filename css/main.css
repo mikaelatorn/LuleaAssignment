@@ -3,6 +3,9 @@
 .navbar {
 	width: 100%;
 	top: 0;
+	position: fixed;
+	background-color: #FFF;
+	z-index: 2;
 }
 
 .navbar p {
@@ -113,15 +116,15 @@ p { text-align: center; }
 .menu ul {
 	list-style-type: none;
 	margin:0.5em;
-	padding: 2;
+	padding: 0;
 }
 
 
 .menu li {
 	display: inline-block;
 	text-align: center;
-	margin-right: 3em;
-	margin-left: 3em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
 }
 
 /* CONTENT */
