@@ -2,7 +2,6 @@
 
 .navbar {
 	width: 100%;
-	height: 9.5em;
 	top: 0;
 }
 
@@ -18,7 +17,6 @@ a{
 	display: inline-block;
 	position: relative;
 	padding-bottom: 2px;
-<<<<<<< HEAD
 	}
 
 	a:after{
@@ -31,8 +29,8 @@ a{
 		background: transparent;
 		transition: width .3s ease, background-color .3s ease;
 	}
-=======
-}
+
+
 
 a:after{
 	content: '';
@@ -44,17 +42,14 @@ a:after{
 	background: transparent;
 	transition: width .3s ease, background-color .3s ease;
 }
->>>>>>> 150c51dc9a8176a1f3c63b20c72ecd73a52a4fc3
+
 
 a:hover:after{
 	width: 100%;
 	background: black;
 	padding-bottom: 2px;
-<<<<<<< HEAD
 	}
-=======
-}
->>>>>>> 150c51dc9a8176a1f3c63b20c72ecd73a52a4fc3
+
 
 .logo { width: 0; height:0; }
 .logo img {
@@ -65,13 +60,12 @@ a:hover:after{
 	height: 7em;
 }
 
-<<<<<<< HEAD
+
 .navbar p {
 	margin-top: 0;
 	text-align: center;
 }
 
-h1 { text-align: center;}
 
 h1.center {
 	text-align: center;
@@ -81,16 +75,11 @@ h1.center {
 	font-family: 'Amatic SC', cursive;
 }
 
-span {
-	font-weight: lighter;
-	font-size: 65%;
-}
 
 
 .logo { width: 0; height:0; }
 .logo img { max-width: 0; }
 
-h1 { text-align: center;}
 
 span {
 	font-weight: lighter;
@@ -111,8 +100,7 @@ p { text-align: center; }
 	margin-bottom: 0.6em;
 
  }
-=======
-h1 { text-align: center;}
+
 
 .logo { width: 0; height:0; }
 .logo img { max-width: 0; }
@@ -127,7 +115,7 @@ p { text-align: center; }
 	margin:0.5em;
 	padding: 2;
 }
->>>>>>> 150c51dc9a8176a1f3c63b20c72ecd73a52a4fc3
+
 
 .menu li {
 	display: inline-block;
