@@ -19,6 +19,11 @@
 		text-align: left;
 	}
 
+	p.center {
+		text-align: center;
+		margin-top: -0.3em;
+	}
+
 	.title { margin-left: 10em; }
 	.images { width: 50%; }
 	.content-text p { margin: 1em 5em 1em 5em; }
@@ -52,4 +57,9 @@
 	.images:hover p { width: 28.5%; text-align: center; }
 
 	.videoPlay { width: 80%; }
+}
+
+p.center {
+	text-align: center;
+	margin-top: 0em;
 }
