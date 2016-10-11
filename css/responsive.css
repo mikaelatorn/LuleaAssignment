@@ -11,6 +11,14 @@
 		margin-left: 2em;
 	}
 
+	.footer li {
+		display: inline-block;
+		text-align: center;
+		margin-right: 2em;
+		margin-left: 2em;
+	}
+
+
 	.logo { width: 7.1em; ; margin-right: -10em;  }
 
 	.logo img { max-width: 7.2em; }
@@ -21,7 +29,7 @@
 
 	p.center {
 		text-align: center;
-		margin-top: -0.3em;
+		margin-top: 3em;
 	}
 
 	.title { margin-left: 10em; }
