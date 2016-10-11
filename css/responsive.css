@@ -18,23 +18,22 @@
 		margin-left: 2em;
 	}
 
+	.content-text {
+
+		margin-top: -2.4em;
+	}
 
 	.logo { width: 7.1em; ; margin-right: -10em;  }
 
 	.logo img { max-width: 7.2em; }
 
-	h1 {
-		text-align: left;
-	}
 
-	p.center {
-		text-align: center;
-		margin-top: 3em;
-	}
+
+
 
 	.title { margin-left: 10em; }
 	.images { width: 50%; }
-	.content-text p { margin: 1em 5em 1em 5em; }
+
 }
 
 @media screen and (min-width: 780px) {
@@ -62,12 +61,16 @@
 
 	.content-header { padding: 3em; }
 
+	.content-text {
+
+		margin-top: -1.8em;
+	}
+
 	.images:hover p { width: 28.5%; text-align: center; }
 
 	.videoPlay { width: 80%; }
 }
 
 p.center {
-	text-align: center;
 	margin-top: 0em;
 }
