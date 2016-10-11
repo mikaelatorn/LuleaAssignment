@@ -18,7 +18,7 @@
 		margin-left: 2em;
 	}
 
-
+	.content-text { margin-top: -0.5em; }
 
 	.logo { width: 7.1em; ; margin-right: -10em;  }
 
@@ -53,6 +53,8 @@
 	.content-header { padding: 3em; }
 
 	.images:hover p { width: 28.5%; text-align: center; }
+
+	.content-text { margin-top: 1em; }
 
 	.videoPlay { width: 80%; }
 
